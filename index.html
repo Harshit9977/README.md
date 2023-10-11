@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>        <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="./style.css">
+    <link rel="prefetch stylesheet" href="https://kit-pro.fontawesome.com/releases/v5.12.1/css/pro.min.css">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="intro">
+          <div class="profile">
+            <div class="photo">
+              <img src="data:image/png;base64,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">
+            </div>
+            <div class="bio">
+                <h1 class="name">Harshit</h1>
+                <p class="profession"></p>
+              </div>
+          </div>
+          <div class="intro-section about">
+            <h1 class="title">about me</h1>
+            <p class="paragraph">
+                Hi everyone, I am a College Student of Seth Jai Parkash Mukand Lal Institute of Engineering and Technology Radaur Yamuna Nagar  and I recently try my
+                best to improve my skills on web Back-end. My favorite thing is to observe others' portfolio.
+              </p>
+          </div>
+          <div class="intro-section contact">
+            <h1 class="title">Contact</h1>
+            <div class="info-section">
+                <i class="fas fa-map-marker-alt"></i>
+                <span>Karnal,Haryana</span>
+              </div>
+              <div class="info-section">
+                <i class="fas fa-paper-plane"></i>
+                <span>harshit1349m@gmail.com</span>
+              </div>
+            <div class="info-section link">
+              <i class="fab fa-linkedin"></i>
+              <a target="_blank" rel="author" href="https://linkedin.com/in/harshit-8788b4294">
+                <span>Harshit</span>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="detail">
+          <div class="detail-section edu">
+            <div class="detail-title">
+              <div class="title-icon">
+                <i class="fas fa-user-graduate"></i>
+              </div>
+              <span>Eduation</span>
+            </div>
+            <div class="detail-content">
+                <div class="timeline-block">
+                  <h1>10 th</h1>
+                  <p>S.D.M.N VIDYA MANDIR SCHOOL , NILOKHERI</p>
+                  <time>2020</time>
+                </div>
+                <div class="timeline-block">
+                  <h1>Diploma in Computer Science</h1>
+                  <p>Govt. Polytechnic Nilokheri Karnal</p>
+                  <time>2020 - 2023</time>
+                </div>
+                 <div class="timeline-block">
+                  <h1>Bachelor of Technology in Computer Science</h1>
+                  <p>Seth Jai Parkash Mukand Lal Institute of Engineering and Technology</p>
+                  <time>Present</time>
+                </div>
+              </div>
+          </div>
+          <div class="detail-section pg-skill">
+            <div class="detail-title">
+              <div class="title-icon">
+                <i class="fas fa-laptop-code"></i>
+              </div>
+              <span>Programming skills</span>
+            </div>
+            <div class="detail-content">
+                <ul class="pg-list">
+                  <li>
+                    <span>HTML</span>
+                    <div class="sb-skeleton">
+                      <div class="skillbar" style="--pgbar-length: 90%"></div>
+                    </div>
+                  </li>
+                  <li>
+                    <span>CSS</span>
+                    <div class="sb-skeleton">
+                      <div class="skillbar" style="--pgbar-length: 75%"></div>
+                    </div>
+                  </li>
+                  <li>
+                    <span>Javascript</span>
+                    <div class="sb-skeleton">
+                      <div class="skillbar" style="--pgbar-length: 70%"></div>
+                    </div>
+                  </li>
+                  <li>
+                    <span>NodeJS</span>
+                    <div class="sb-skeleton">
+                      <div class="skillbar" style="--pgbar-length: 70%"></div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+          </div>
+          <div class="detail-section tool-skill">
+            <div class="detail-title">
+              <div class="title-icon">
+                <i class="fas fa-tools"></i>
+              </div>
+              <span>Developement Tools</span>
+            </div>
+            <div class="detail-content">
+                <ul class="tool-list">
+                  <li>
+                    <svg viewbox="0 0 100 100">
+                      <circle cx="50" cy="50" r="45"></circle>
+                      <circle class="cbar" cx="50" cy="50" r="45" style="--percent: 0.6"></circle>
+                    </svg>
+                    <span class="tl-name">Visual Studio</span>
+                    <span class="tl-exp">60%</span>
+                  </li>
+                  <li>
+                    <svg viewbox="0 0 100 100">
+                      <circle cx="50" cy="50" r="45"></circle>
+                      <circle class="cbar" cx="50" cy="50" r="45" style="--percent: 0.8"></circle>
+                    </svg>
+                    <span class="tl-name">CodeBlocks</span>
+                    <span class="tl-exp">80%</span>
+                  </li>
+                  <li>
+                    <svg viewbox="0 0 100 100">
+                      <circle cx="50" cy="50" r="45"></circle>
+                      <circle class="cbar" cx="50" cy="50" r="45" style="--percent: 0.7"></circle>
+                    </svg>
+                    <span class="tl-name">Turbo C++</span>
+                    <span class="tl-exp">70%</span>
+                  </li>
+                  <li>
+                    <svg viewbox="0 0 100 100">
+                      <circle cx="50" cy="50" r="45"></circle>
+                      <circle class="cbar" cx="50" cy="50" r="45" style="--percent: 0.74"></circle>
+                    </svg>
+                    <span class="tl-name">NPM</span>
+                    <span class="tl-exp">74%</span>
+                  </li>
+                </ul>
+              </div>
+      
+          </div>
+          <div class="detail-section interests">
+            <div class="detail-title">
+              <div class="title-icon">
+                <i class="fas fa-heart"></i>
+              </div>
+              <span>Interests</span>
+            </div>
+            <div class="detail-content">
+                <div class="outer-frame">
+                  <ul class="favor-list">
+                    <li>
+                      <i class="fas fa-gamepad"></i>
+                      <span>Game</span>
+                    </li>
+        
+                    <li>
+                      <i class="far fa-headphones-alt"></i>
+                      <span>Music</span>
+                    </li>
+                    <li>
+                      <i class="fas fa-book-spells"></i>
+                      <span>Self-learning</span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+          </div>
+        </div>
+      </div>
+</body>
+</html>
